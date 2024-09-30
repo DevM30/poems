@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#poems {
+    margin: 20px;
+}
+
+#add-poem {
+    margin: 20px;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #222;
+    color: #ddd;
+}
+
+header.dark-mode {
+    background-color: #111;
+}
+
+button.dark-mode {
+    background-color: #444;
+    color: white;
+}
+
+/* Poem styling */
+.poem {
+    margin-bottom: 15px;
+}
+
+.like-button {
+    margin-top: 5px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+}
+
+.like-button:hover {
+    background-color: #bbb;
+}

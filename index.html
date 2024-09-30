@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Poetry Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Poetry Collection</h1>
+    </header>
+
+    <section id="poems">
+        <h2>My Poems</h2>
+        <div id="poem-list">
+            <!-- Existing poems go here -->
+        </div>
+    </section>
+
+    <!-- Form for adding a new poem -->
+    <section id="add-poem">
+        <h2>Add a New Poem</h2>
+        <form id="poem-form">
+            <label for="poem-title">Poem Title:</label>
+            <input type="text" id="poem-title" required>
+
+            <label for="poem-content">Poem Content:</label>
+            <textarea id="poem-content" rows="4" required></textarea>
+
+            <button type="submit">Add Poem</button>
+        </form>
+    </section>
+    <header>
+        <h1>Welcome to My Poetry Collection</h1>
+        <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    </header>
+    
+    <!-- Search Bar -->
+    <section id="search-poems">
+        <input type="text" id="search-bar" placeholder="Search poems by title..." />
+    </section>
+    
+    <p id="char-count">Character count: 0</p>
+
+    <!-- Link to the JS file -->
+    <script src="scripts.js"></script>
+</body>
+</html>
